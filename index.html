@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
+		<title>Punto de venta Desktop</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+			    
+	</head>
+
+	<body>
+	<header>
+				<h1>Punto de venta Desktop</h1>
+				<br>
+			<div class="navegacion">
+				<nav class="navbar navbar-light bg-faded">
+					<a class="navbar-brand" href="#"></a>
+					<ul class="nav navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Lista de pedidos <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="guisos.html">Guisos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Catalago Menu</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="historial.html">Historial</a>
+						</li>
+					</ul>
+					<form class="form-inline navbar-form pull-right">
+					</form>
+				</nav>
+			</div>
+	</header>
+
+		<div class="listapedido">
+			<h4>Pedidos</h4>
+			<hr>
+				<ul class="list-group">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 1
+				</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 2
+				</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 3
+				</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 4
+				</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 5
+				</button>
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="pedido6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Pedido 6
+				</button>
+				</ul>
+		</div>
+
+		<div class="infopedido">
+			<div class="dropdown open">
+			<h4 id="pedido">Pedido 1</h4>
+			<hr>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<button class="dropdown-item" type="button">Completo</button>
+					<button class="dropdown-item" type="button">Retrasar 5m</button>
+					<button class="dropdown-item" type="button">Cancelar</button>
+				</div>
+					<ul id="pedidos" class="list-group">
+						<li class="list-group-item">3 Tostadas</li>
+						<li class="list-group-item">1 Coca-Cola 600ml</li>
+						<li class="list-group-item">1 Ruffles</li>
+					</ul>
+			</div>
+		</div>
+
+		<div class="ingredientespedido">
+			<br>
+			<h4>Ingredientes</h4>
+			<hr>
+					<ul id="ingredientes" class="list-group">
+						<li class="list-group-item">Deshebrada</li>
+						<li class="list-group-item">Salsa verde</li>
+						<li class="list-group-item">Cochinita pibil</li>
+					</ul>
+		</div>
+
+		<div>
+		</div>
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/main1.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type='text/javascript' src='js/knockout-3.4.2.js'></script>
+	
+	</body>
+
+</html>
